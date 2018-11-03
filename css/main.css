@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+#login-landing{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align:middle;
+	flex-direction:column;
+	padding:10%;
+}
+
+#login-landing img{
+	margin-bottom:1em;
+}
+
+#login-landing h2{
+	margin-bottom:2em;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	border:solid white 2px;
+	border-left:solid #dd395d 2px;
+	padding-left:1em;
+	padding-right:1em;
+	-o-transition:.15s;
+  	-ms-transition:.15s;
+  	-moz-transition:.15s;
+  	-webkit-transition:.15s;
+}
+
+
+a:hover{
+	border:solid #dd395d 2px;
+	color: #dd395d;
+}
+
+form button{
+	background:none;
+	border:solid #dd395d 2px;
+	font-size:1em;
+	-o-transition:.15s;
+  	-ms-transition:.15s;
+  	-moz-transition:.15s;
+  	-webkit-transition:.15s;
+  	margin-left:2em;
+}
+
+form button:hover{
+	background:#dd395d;
+	color:white;
+
+}
+
+input{
+	border:none;
+	border-bottom:solid #9b999a 2px;
+	-o-transition:.15s;
+  	-ms-transition:.15s;
+  	-moz-transition:.15s;
+  	-webkit-transition:.15s;
+}
+
+input:focus{
+	border-bottom:solid #dd395d 2px;
+}
+
+#register-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align:middle;
+	flex-direction:column;
+	padding:10%;
+}
+
+#register-body h1{
+	margin-bottom:2em;
+}
+
+#home-body{
+	padding:10%;
+	padding-top:5%;
+}
+
+#balance-info-section{
+	border:solid #dbd9da 2px;
+	padding:2em;
+	margin-bottom:4em;
+}
+
+#cur-balance{
+	border:solid red 2px;
+	width:10%;
+	height:10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align:middle;
+	flex-direction:column;
+	padding:5%;
+	margin:2em;
+}
+
+#cur-balance p{
+	font-size:2em;
+	margin:1em;
+}
+
+#send-money-section{
+	border:solid #dbd9da 2px;
+	padding:2em;
+	margin-bottom:4em;
+}
+
+#send-money-section input{
+	margin:1em;
+}
+
+#send-money-section form button{
+	margin-left:0;
+}
+
+.logout-btn{
+	margin:1em;
+	float:right;
+}
+
+#send-body{
+	padding:10%;
+}
+
+#send-content{
+	border:solid #dbd9da 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align:middle;
+	flex-direction:column;
+	padding:5%;
+	margin:2em;
+	text-align:center;
+	line-height:1.5;
+}
+
+#send-content a{
+	clear:both;
+}
+
+
